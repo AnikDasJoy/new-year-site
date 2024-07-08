@@ -289,3 +289,55 @@ body {
     height: 55%;
     margin-top: 125px;
 }
+
+.portfolio {
+    margin: 0 auto;
+    margin-top: 5%;
+    width: 1320px;
+    height: 863px;
+    /* border: 2px solid red; */
+}
+
+.portfolio p {
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: start;
+}
+
+.portfolio h4 {
+    color: rgb(7, 2, 17);
+    font-family: Inter;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 58px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: -15px;
+}
+
+.portfolio .portfolio-p {
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.portfolio .gifts {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 10px;
+    grid-column-gap: 0px;
+    margin-top: 20px;
+}
+
+.portfolio .gifts img {
+    width: 390px;
+    height: 350px;
+}
