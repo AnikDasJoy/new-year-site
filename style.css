@@ -47,7 +47,7 @@ body {
 
 .discount {
     width: 802.9px;
-    height: 806px;
+    height: 706px;
     margin: auto;
     margin-top: 90px;
     /* left: 399px;
@@ -183,12 +183,12 @@ body {
     margin: 0 auto;
     width: 1320px;
     height: 400px;
-    border: 2px solid red;
+    border: 0.5px solid red;
     border-radius: 15px;
     background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1), rgba(255, 0, 0, 0) 100%);
 }
 
-.event .color {
+.color {
     color: red;
 }
 
@@ -215,4 +215,77 @@ body {
     padding: 16px 30px 16px 30px;
     border-radius: 10px;
     margin-top: 20px;
+}
+
+.holiday-container1 {
+    margin: 0 auto;
+    margin-top: 50px;
+    width: 1068px;
+    height: 260px;
+    /* border: 2px solid greenyellow; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.holiday-container1 h6 {
+    color: rgb(7, 2, 17);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.holiday-container1 h3 {
+    font-family: Merriweather;
+    font-size: 42px;
+    font-weight: 700;
+    width: 677px;
+    height: 91px;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.holiday-container1 p {
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: center;
+    width: 768px;
+    height: 96px;
+}
+
+.holiday-container2 {
+    width: 1320px;
+    height: 562.07px;
+    /* border: 2px solid green; */
+    margin: 0 auto;
+    background-image: url(images/Rectangle\ 2.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    display: flex;
+}
+
+.left-holiday-container2 {
+    width: 50%;
+    /* border: 2px solid red; */
+}
+
+.left-holiday-container2 img {
+    height: 90%;
+    position: absolute;
+}
+
+.right-holiday-container2 {
+    width: 50%;
+    /* border: 2px solid green; */
+
+}
+
+.right-holiday-container2 img {
+    height: 55%;
+    margin-top: 125px;
 }
