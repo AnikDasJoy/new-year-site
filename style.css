@@ -183,7 +183,7 @@ body {
     margin: 0 auto;
     width: 1320px;
     height: 400px;
-    border: 0.5px solid red;
+    border: 0.5px solid wheat;
     border-radius: 15px;
     background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1), rgba(255, 0, 0, 0) 100%);
 }
@@ -275,7 +275,7 @@ body {
 }
 
 .left-holiday-container2 img {
-    height: 90%;
+    height: 70%;
     position: absolute;
 }
 
@@ -341,6 +341,73 @@ body {
     height: 350px;
 }
 
+.offer-container {
+    margin: 0 auto;
+    margin-top: 5%;
+    width: 1320px;
+    height: 400px;
+}
+
+.offer-description h6 {
+    font-size: 18px;
+    font-weight: 500;
+    color: rgb(255, 0, 0);
+}
+
+.offer-description h2 {
+    font-size: 28px;
+    font-weight: 900;
+    color: rgb(7, 2, 17);
+    margin: 10px 0;
+}
+
+.offer-container p {
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0%;
+    width: 768px;
+    height: 96px;
+}
+
+.offer-container .img img {
+    width: 264.84px;
+    height: 264.84px;
+    box-sizing: border-box;
+    border: 10px solid rgb(255, 0, 0);
+    border-radius: 300px 300px 300px 300px;
+}
+
+.right-offer h2 {
+    font-size: 38px;
+    font-weight: 700;
+    color: rgb(255, 0, 0);
+}
+
+.right-offer p {
+    margin: 10px 0;
+}
+
+.offers {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.offer-description {
+    margin-left: 34%;
+    width: 30%;
+
+}
+
+.right-offer {
+    margin-left: 10%;
+}
+
 footer {
     margin-top: 8%;
     background: rgb(7, 2, 17);
@@ -398,4 +465,5 @@ footer {
     display: flex;
     justify-content: space-around;
     padding: 50px 0;
+    border: 2px solid red;
 }
