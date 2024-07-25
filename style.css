@@ -8,6 +8,7 @@
 
 body {
     font-family: "Merriweather", serif;
+    /* width: 80%; */
 }
 
 /* banner section start */
@@ -46,10 +47,12 @@ body {
 }
 
 .discount {
-    width: 802.9px;
-    height: 706px;
-    margin: auto;
-    margin-top: 90px;
+    max-width: 802.9px;
+    max-height: 706px;
+    margin: 0 auto;
+    margin-bottom: 10%;
+    align-items: center;
+    justify-content: center;
     /* left: 399px;
     right: 398.1px;
     top: 770px;
@@ -400,7 +403,6 @@ body {
 .offer-description {
     margin-left: 34%;
     width: 30%;
-
 }
 
 .right-offer {
@@ -457,7 +459,7 @@ footer {
     margin: 0 auto;
     margin-top: 8%;
     background: rgb(7, 2, 17);
-    width: 100%;
+    width: 80%;
     height: 409px;
 }
 
@@ -512,4 +514,217 @@ footer {
     justify-content: space-around;
     padding: 50px 0;
     /* border: 2px solid red; */
+}
+
+
+@media screen and (max-width: 576px) {
+    body {
+        margin: 0;
+        padding: 0;
+    }
+
+    .party {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        /* height: 600px; */
+    }
+
+    .discount img {
+
+        margin: 0 auto;
+        margin-top: 20px;
+
+    }
+
+    .left-side-content h1 {
+        width: 100%;
+        height: 100%;
+    }
+
+    .event {
+        width: 100%;
+        height: 100%;
+    }
+
+    .offer-container {
+        width: 100%;
+        height: 100%;
+    }
+
+    .offers {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .right-offer {
+        margin-left: 100%;
+    }
+
+    .offer-description {
+        margin-right: 30%;
+        width: 30%;
+    }
+
+    .holiday-container1 {
+        width: 100%;
+        height: 100%;
+    }
+
+    .holiday-container1 p {
+        width: 100%;
+        height: 100%;
+    }
+
+    .holiday-container2 {
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+    }
+
+    .portfolio {
+        width: 100%;
+        height: 100%;
+    }
+
+    .portfolio .portfolio-p {
+        width: 100%;
+        height: 100%;
+    }
+
+    .portfolio .gifts {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin-top: 20px;
+    }
+
+    .subscribe {
+        width: 100%;
+        height: 100%;
+    }
+
+    .subscribe-text {
+        display: block;
+    }
+
+    .subscribe-text .text {
+        width: 100%;
+    }
+
+    .social-icons {
+        margin: 0 auto;
+        justify-content: center;
+    }
+
+    .social-icons img {
+        width: 50px;
+        height: 50px;
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 992px) {
+    .party {
+        width: 100%;
+        /* display: flex; */
+        /* flex-direction: column; */
+        /* height: 600px; */
+    }
+
+    .discount img {
+
+        margin: 0 auto;
+        margin-top: 20px;
+
+    }
+
+    .left-side-content h1 {
+        width: 100%;
+        height: 100%;
+    }
+
+    .event {
+        width: 100%;
+        height: 100%;
+    }
+
+    .offer-container {
+        width: 100%;
+        height: 100%;
+    }
+
+    .offers {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .right-offer {
+        margin-left: 100%;
+    }
+
+    .offer-description {
+        margin-right: 30%;
+        width: 30%;
+    }
+
+    .holiday-container1 {
+        width: 100%;
+        height: 100%;
+    }
+
+    .holiday-container1 p {
+        width: 100%;
+        height: 100%;
+    }
+
+    .holiday-container2 {
+        width: 100%;
+        height: 100%;
+        /* flex-direction: column; */
+    }
+
+    .right-holiday-container2 {
+        width: 100%;
+        height: 100%;
+    }
+
+    .portfolio {
+        width: 100%;
+        height: 100%;
+    }
+
+    /* .portfolio .portfolio-p {
+            width: 100%;
+            height: 100%;
+        } */
+
+    .portfolio .gifts {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin-top: 20px;
+    }
+
+    .subscribe {
+        width: 100%;
+        height: 100%;
+    }
+
+    /* .subscribe-text {
+            display: block;
+        } */
+
+    .subscribe-text {
+        width: 100%;
+    }
+
+    .social-icons {
+        margin: 0 auto;
+        justify-content: center;
+    }
+
+    .social-icons img {
+        width: 50px;
+        height: 50px;
+    }
 }
